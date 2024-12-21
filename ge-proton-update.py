@@ -38,7 +38,7 @@ def untar(filename, steamtools):
 
 def config(home_dir, config_dir, config_file_path):
     # Get user input
-    print(f"NOTE: Give the absolute path, not just Downloads or .steam")
+    print(f"NOTE: Give the absolute path, not just Downloads or .steam. Example: /home/pee/Downloads and /home/pee/.steam/compatibilitytools.d")
     download_path = input("Where is your downloads directory located: ")
     steamtools_path = input("Where is your compatibilitytools.d directory located: ")
     
